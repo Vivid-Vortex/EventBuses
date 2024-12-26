@@ -91,7 +91,7 @@ Although **Project Reactor Bus** was widely used, it is worth noting that **mode
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-### Comparison with Google Guava EventBus
+## Comparison with Google Guava EventBus
 
 ### **Google Guava EventBus**
 
@@ -459,4 +459,3 @@ Reactor Bus excels in scenarios requiring **asynchronous processing**, **high co
 ### **Final Notes**
 - Use **Guava EventBus** for **simpler, synchronous, or small-scale applications** where the overhead of asynchronous processing is unnecessary.
 - Use **Reactor Bus** for **scalable, high-performance, or reactive systems** requiring asynchronous processing or integration with reactive libraries.
-
