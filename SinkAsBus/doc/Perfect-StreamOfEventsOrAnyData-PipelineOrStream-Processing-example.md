@@ -1,3 +1,25 @@
+<!-- TOC -->
+  * [Perfect example to understand pipeline/chaining concept brought in by Stream API in Java 8](#perfect-example-to-understand-pipelinechaining-concept-brought-in-by-stream-api-in-java-8)
+          * [**Note**: Below example uses Reactive programming concepts which in turn also uses same concept of stream processing through pipeline or chaining mechanism as non reactive or other stream api based frameworks or libraries. Despite of this, below example is a perfect example to understand pipeline concept and is applicable to any type whether reactive or non-reactive.](#note-below-example-uses-reactive-programming-concepts-which-in-turn-also-uses-same-concept-of-stream-processing-through-pipeline-or-chaining-mechanism-as-non-reactive-or-other-stream-api-based-frameworks-or-libraries-despite-of-this-below-example-is-a-perfect-example-to-understand-pipeline-concept-and-is-applicable-to-any-type-whether-reactive-or-non-reactive)
+    * [**Question:**](#question)
+    * [**Answer:**](#answer)
+    * [**Step 1: Add Required Dependencies**](#step-1-add-required-dependencies)
+    * [**Step 2: Define the Kafka Consumer**](#step-2-define-the-kafka-consumer)
+      * [Kafka Configuration (application.yml):](#kafka-configuration-applicationyml)
+      * [Kafka Receiver Setup:](#kafka-receiver-setup)
+    * [**Step 3: Define the Service Layers**](#step-3-define-the-service-layers)
+      * [Validation Layer:](#validation-layer)
+      * [Mapping Layer:](#mapping-layer)
+      * [Persistence Layer:](#persistence-layer)
+    * [**Step 4: Combine the Layers in a Reactive Pipeline**](#step-4-combine-the-layers-in-a-reactive-pipeline)
+    * [**Step 5: Reactive Database Setup**](#step-5-reactive-database-setup)
+      * [Entity Class:](#entity-class)
+      * [Repository:](#repository)
+    * [**Step 6: Launch the Reactive Pipeline**](#step-6-launch-the-reactive-pipeline)
+    * [**Advantages of This Approach**](#advantages-of-this-approach)
+    * [**Summary**](#summary)
+<!-- TOC -->
+
 Perfect example to understand pipeline/chaining concept brought in by Stream API in Java 8
 ---
 ###### **Note**: Below example uses Reactive programming concepts which in turn also uses same concept of stream processing through pipeline or chaining mechanism as non reactive or other stream api based frameworks or libraries. Despite of this, below example is a perfect example to understand pipeline concept and is applicable to any type whether reactive or non-reactive.
