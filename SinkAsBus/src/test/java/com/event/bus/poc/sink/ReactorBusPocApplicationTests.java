@@ -1,4 +1,4 @@
-package com.event.bus.ReactorBusPoc;
+package com.event.bus.poc.sink;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
